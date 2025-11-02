@@ -1,0 +1,53 @@
+.custom-navbar {
+  background-color: #ffffff;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo-img {
+  height: 60px; /* adjust based on your image */
+  width: 100%;
+  object-fit: contain;
+}
+
+.logo-icon {
+  color: #1d1145;
+  font-size: 1.4rem;
+  margin-left: 4px;
+}
+
+.menu-item {
+  color: #000 !important;
+  font-size: 1.1rem;
+  margin: 0 12px;
+  transition: color 0.3s;
+}
+
+.menu-item:hover {
+  color: #1d1145 !important;
+}
+
+.custom-btn {
+  background-color: #1d1145 !important;
+  border: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.custom-btn:hover {
+  background-color: #2b1d6e !important;
+}
+
+.user-icon {
+  font-size: 2rem;
+  color: #1d1145;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.user-icon:hover {
+  transform: scale(1.1);
+  color: #2b1d6e;
+}
